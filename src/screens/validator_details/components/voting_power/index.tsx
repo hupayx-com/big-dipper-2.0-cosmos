@@ -8,9 +8,9 @@ import {
 import useTranslation from 'next-translate/useTranslation';
 import { Box } from '@components';
 import { BLOCK_DETAILS } from '@utils/go_to_page';
+import { formatDenom } from '@utils/format_denom';
 import { useStyles } from './styles';
 import { VotingPowerType } from '../../types';
-import { formatDenom } from '@utils/format_denom';
 
 const VotingPower: React.FC<{
   className?: string;
@@ -21,16 +21,14 @@ const VotingPower: React.FC<{
 }) => {
   const { t } = useTranslation('validators');
   let votingPower = data.self;
-  votingPower = votingPower * 1000000;
-  votingPower = formatDenom(votingPower, 'stake');
-
+  votingPower *= 1000000;
   const votingPowerPercent = numeral((
-    votingPower.value / data.overall.value) * 100);
+    votingPower / data.overall.value) * 100);
 
-  votingPower = numeral(votingPower.value).format('0,0.[0000]');
+  votingPower = numeral(votingPower).format('0,0.[0000]');
 
   const classes = useStyles(votingPowerPercent.format(0, Math.floor));
- 
+
   return (
     <Box className={classnames(className, classes.root)}>
       <Typography variant="h2">
