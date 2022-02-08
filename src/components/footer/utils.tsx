@@ -1,4 +1,5 @@
-const THARSIS_URL = 'https://www.thars.is';
+// const THARSIS_URL = 'https://www.thars.is';
+const HUPAYX_URL = 'https://www.hupayx.io';
 const EVMOS_URL = 'https://evmos.org/';
 const EVMEXPLORER_URL = 'https://evm.evmos.org/';
 
@@ -25,8 +26,8 @@ export const footerLinks = [
     key: 'company',
     links: [
       {
-        key: 'tharsis',
-        url: THARSIS_URL,
+        key: 'hupayx',
+        url: HUPAYX_URL,
       },
     ],
   },

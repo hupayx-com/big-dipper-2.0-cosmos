@@ -14,15 +14,15 @@
     "time": "2021-07-13T08:00:00",
     "height": 1
   },
-  "primaryTokenUnit": "aphoton",
+  "primaryTokenUnit": "ahpx",
   "tokenUnits": {
-    "aphoton": {
-      "display": "photon",
+    "ahpx": {
+      "display": "hpx",
       "exponent": 18
     },
-    "pphoton": {
-      "display": "pphoton",
-      "exponent": 12
+    "stake": {
+      "display": "stake",
+      "exponent": 0
     }
   },
   "extra": {

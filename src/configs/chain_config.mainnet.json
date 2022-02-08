@@ -14,11 +14,11 @@
     "time": "2021-07-13T08:00:00",
     "height": 1
   },
-  "primaryTokenUnit": "udsm",
+  "primaryTokenUnit": "stake",
   "tokenUnits": {
-    "udsm": {
-      "display": "dsm",
-      "exponent": 6
+    "stake": {
+      "display": "stake",
+      "exponent": 0
     }
   },
   "extra": {

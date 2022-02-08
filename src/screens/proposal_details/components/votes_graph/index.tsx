@@ -38,7 +38,7 @@ const VotesGraph: React.FC<{
   const notEmpty = formattedData.some((x) => x.value > 0);
   formattedData = notEmpty ? formattedData : [...formattedData, empty];
 
-  let format = formatDenom(data.total, "aphoton")
+  const format = formatDenom(data.total, 'ahpx');
 
   const quorumPercent = `${numeral(data.quorum * 100).value()}%`; // correct
   const votePercent = format.value < 1? '0%' : replaceNaN(`${numeral((BigInt(format.value) / BigInt(data.bondedTokens)) * BigInt(100)).format('0.[00]')}%`);

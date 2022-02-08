@@ -1,14 +1,12 @@
 import * as R from 'ramda';
 
-// {{aphoton true true [] {0 0 true 0 0x0000000000000000000000000000000000000000000000000000000000000000 0 0 0 0 0 0 0 0 0}} 47}
-
+// {{ahpx true true [] {0 0 true 0 0x0000000000000000000000000000000000000000000000000000000000000000 0 0 0 0 0 0 0 0 0}} 47}
 
 class EvmParams {
     public evmDenom: string
     public enableCall: boolean
     public enableCreate: boolean
     public chainConfig: string
-    
     public berlinBlock : number
     public byzantiumBlock : number
     public constantinopleBlock : number
@@ -24,27 +22,26 @@ class EvmParams {
     public muirGlacierBlock : number
     public petersburgBlock : number
 
-  constructor(payload: any) {
-    this.evmDenom = payload.evmDenom;
-    this.enableCall = payload.enableCall;
-    this.enableCreate = payload.enableCreate;
-    //this.chainConfig = JSON.stringify(payload.chainConfig)
-    
-    this.berlinBlock = payload.berlinBlock
-    this.byzantiumBlock = payload.byzantiumBlock
-    this.constantinopleBlock = payload.constantinopleBlock
-    this.daoForkBlock = payload.daoForkBlock
-    this.daoForkSupport  = payload.daoForkSupport
-    this.eip150Block = payload.eip150Block
-    this.eip150Hash = payload.eip150Hash
-    this.eip155Block = payload.eip155_block
-    this.eip158Block = payload.eip158_block
-    this.homesteadBlock = payload.homestead_block
-    this.istanbulBlock = payload.istanbul_block
-    this.londonBlock = payload.london_block
-    this.muirGlacierBlock = payload.muir_glacier_block
-    this.petersburgBlock = payload.petersburg_block
-  }
+    constructor(payload: any) {
+      this.evmDenom = payload.evmDenom;
+      this.enableCall = payload.enableCall;
+      this.enableCreate = payload.enableCreate;
+      // this.chainConfig = JSON.stringify(payload.chainConfig)
+      this.berlinBlock = payload.berlinBlock;
+      this.byzantiumBlock = payload.byzantiumBlock;
+      this.constantinopleBlock = payload.constantinopleBlock;
+      this.daoForkBlock = payload.daoForkBlock;
+      this.daoForkSupport = payload.daoForkSupport;
+      this.eip150Block = payload.eip150Block;
+      this.eip150Hash = payload.eip150Hash;
+      this.eip155Block = payload.eip155_block;
+      this.eip158Block = payload.eip158_block;
+      this.homesteadBlock = payload.homestead_block;
+      this.istanbulBlock = payload.istanbul_block;
+      this.londonBlock = payload.london_block;
+      this.muirGlacierBlock = payload.muir_glacier_block;
+      this.petersburgBlock = payload.petersburg_block;
+    }
 
   static fromJson(data: any) {
     let chainConfig = R.pathOr(0, ['chain_config'], data);

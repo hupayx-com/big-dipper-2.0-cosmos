@@ -20,12 +20,14 @@ const VotingPower: React.FC<{
   data,
 }) => {
   const { t } = useTranslation('validators');
-  let votingPower = formatDenom(data.self, "pphoton")
+  let votingPower = data.self;
+  votingPower = votingPower * 1000000;
+  votingPower = formatDenom(votingPower, 'stake');
 
   const votingPowerPercent = numeral((
     votingPower.value / data.overall.value) * 100);
 
-  votingPower = numeral(votingPower.value).format('0,0.[0000]')
+  votingPower = numeral(votingPower.value).format('0,0.[0000]');
 
   const classes = useStyles(votingPowerPercent.format(0, Math.floor));
  
