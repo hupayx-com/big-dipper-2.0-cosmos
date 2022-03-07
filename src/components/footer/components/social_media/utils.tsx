@@ -2,7 +2,7 @@ import React from 'react';
 import {
   TelegramIcon,
   TwitterIcon,
-  GithubIcon,
+  MediumIcon,
 } from '@icons';
 
 export const socialMediaLinks:{
@@ -13,16 +13,16 @@ export const socialMediaLinks:{
   {
     component: <TelegramIcon />,
     className: 'telegram',
-    url: 'https://t.me/EvmosOrg',
+    url: 'https://t.me/hupayx_community',
   },
   {
     component: <TwitterIcon />,
     className: 'twitter',
-    url: 'https://twitter.com/EvmosOrg',
+    url: 'https://twitter.com/hupayx',
   },
   {
-    component: <GithubIcon />,
-    className: 'github',
-    url: 'https://github.com/tharsis/evmos',
+    component: <MediumIcon />,
+    className: 'medium',
+    url: 'https://medium.com/hupayx/',
   },
 ];

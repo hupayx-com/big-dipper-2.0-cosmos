@@ -8,7 +8,8 @@ import {
   Typography,
 } from '@material-ui/core';
 import {
-  chainConfig, generalConfig,
+  // chainConfig,
+  generalConfig,
 } from '@src/configs';
 import { useSettingsContext } from '@contexts';
 import { SocialMedia } from './components';
@@ -39,9 +40,8 @@ const Footer: React.FC<{className?: string}> = ({ className }) => {
           ) : (
             <EvmosLogo className="footer__logo" />
           )}
-          <p className="footer__slogan">{chainConfig.title}</p>
         </div>
-        {/* ============================= */}
+        {/* ============================= <p className="footer__slogan">{chainConfig.title}</p> */}
         {/* links */}
         {/* ============================= */}
         <div className="footer__links">

@@ -1,7 +1,7 @@
 // const THARSIS_URL = 'https://www.thars.is';
 const HUPAYX_URL = 'https://www.hupayx.io';
-const EVMOS_URL = 'https://evmos.org/';
-const EVMEXPLORER_URL = 'https://evm.evmos.org/';
+// const EVMOS_URL = 'https://evmos.org/';
+// const EVMEXPLORER_URL = 'https://evm.evmos.org/';
 
 // export const donateLink = {
 //   key: 'donate',
@@ -10,15 +10,19 @@ const EVMEXPLORER_URL = 'https://evm.evmos.org/';
 
 export const footerLinks = [
   {
-    key: 'evmos',
+    key: 'Link',
     links: [
       {
-        key: 'evmos',
-        url: EVMOS_URL,
+        key: 'evmexplorer',
+        url: 'https://evmscan-test.hupayx.io',
       },
       {
-        key: 'evmexplorer',
-        url: EVMEXPLORER_URL,
+        key: 'faucet',
+        url: 'https://faucet-test.hupayx.io',
+      },
+      {
+        key: 'cs',
+        url: 'mailto:help@hupayx.com',
       },
     ],
   },
@@ -29,6 +33,14 @@ export const footerLinks = [
         key: 'hupayx',
         url: HUPAYX_URL,
       },
+      // {
+      //   key: 'cs',
+      //   url: 'help@hupayx.io',
+      // },
+      // {
+      //   key: 'evmexplorer',
+      //   url: EVMEXPLORER_URL,
+      // },
     ],
   },
 ];

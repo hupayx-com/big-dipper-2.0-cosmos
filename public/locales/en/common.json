@@ -56,5 +56,8 @@
   "evmos": "Evmos",
   "tharsis": "Tharsis",
   "hupayx" : "Hupayx",
-  "evmexplorer": "EVM Explorer"
+  "evmexplorer": "EVM Explorer",
+  "cs": "CS",
+  "Link": "Link",
+  "faucet": "faucet"
 }

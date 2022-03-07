@@ -28,7 +28,7 @@ export const useStyles = () => {
             },
           },
           '& .footer__logo': {
-            width: '180px',
+            width: '280px',
           },
           '& .footer__closing--text': {
             color: theme.palette.custom.fonts.fontThree,
