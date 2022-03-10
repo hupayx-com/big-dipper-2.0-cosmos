@@ -14,11 +14,11 @@ export const footerLinks = [
     links: [
       {
         key: 'evmexplorer',
-        url: 'https://evmscan-test.hupayx.io',
+        url: 'http://evmscan-test.hupayx.io',
       },
       {
         key: 'faucet',
-        url: 'https://faucet-test.hupayx.io',
+        url: 'http://faucet-test.hupayx.io',
       },
       {
         key: 'cs',
