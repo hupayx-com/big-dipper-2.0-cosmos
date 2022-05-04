@@ -14,22 +14,6 @@ exports[`screen: BlockDetails matches snapshot 1`] = `
       className="makeStyles-root"
     >
       <div
-        bio=""
-        connections={
-          Array [
-            Object {
-              "creationTime": "2021-10-06T00:10:45.761731",
-              "identifier": "desmos1kmw9et4e99ascgdw0mmkt63mggjuu0xuqjx30w",
-              "network": "native",
-            },
-          ]
-        }
-        dtag="RiccardoMontagnin"
-        id="DesmosProfile"
-        imageUrl=""
-        nickname=""
-      />
-      <div
         address="desmos18kvwy5hzcu3ss08lcfcnx0eajuecg69ujmkwjr"
         className="makeStyles-overview"
         id="Overview"

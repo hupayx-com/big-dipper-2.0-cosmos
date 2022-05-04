@@ -45,19 +45,9 @@ exports[`screen: Nav/ActionBar displays network 1`] = `
       </div>
     </form>
     <div
-      className="makeStyles-network open"
-      id="network"
-      toggleNetwork={[MockFunction]}
-    />
-    <div
       id="SettingsList"
     />
   </div>
-  <div
-    actionHeight={0}
-    className="makeStyles-networkList open"
-    id="NetworkList"
-  />
 </div>
 `;
 
@@ -106,18 +96,8 @@ exports[`screen: Nav/ActionBar it renders 1`] = `
       </div>
     </form>
     <div
-      className="makeStyles-network"
-      id="network"
-      toggleNetwork={[MockFunction]}
-    />
-    <div
       id="SettingsList"
     />
   </div>
-  <div
-    actionHeight={0}
-    className="makeStyles-networkList"
-    id="NetworkList"
-  />
 </div>
 `;

@@ -12,7 +12,6 @@ exports[`screen: Nav/Desktop hook toggles correctly 1`] = `
     <div
       id="actionBar"
       isNetwork={false}
-      toggleNetwork={[Function]}
     />
     <div
       id="TitleBar"
@@ -27,7 +26,7 @@ exports[`screen: Nav/Desktop hook toggles correctly 1`] = `
     >
       <svg
         className="makeStyles-logo"
-        data-file-name="SvgBigDipperRed"
+        data-file-name="SvgEvmosWhiteLogo"
         onClick={[Function]}
         role="button"
       />
@@ -51,7 +50,6 @@ exports[`screen: Nav/Desktop it renders 1`] = `
     <div
       id="actionBar"
       isNetwork={false}
-      toggleNetwork={[Function]}
     />
     <div
       id="TitleBar"
@@ -66,7 +64,7 @@ exports[`screen: Nav/Desktop it renders 1`] = `
     >
       <svg
         className="makeStyles-logo"
-        data-file-name="SvgBigDipperRed"
+        data-file-name="SvgEvmosWhiteLogo"
         onClick={[Function]}
         role="button"
       />

@@ -14,15 +14,12 @@
     "time": "2021-07-13T08:00:00",
     "height": 1
   },
-  "primaryTokenUnit": "ahpx",
+  "primaryTokenUnit": "asfl",
+  "votingPowerTokenUnit": "asfl",
   "tokenUnits": {
-    "ahpx": {
-      "display": "hpx",
+    "asfl": {
+      "display": "sfl",
       "exponent": 18
-    },
-    "stake": {
-      "display": "stake",
-      "exponent": 0
     }
   },
   "extra": {

@@ -62,8 +62,8 @@ export const useValidators = () => {
     const formattedItems = data.validator.filter((x) => x.validatorInfo).map((x) => {
       const validator = findAddress(x.validatorInfo.operatorAddress);
       let votingPower = R.pathOr(0, ['validatorVotingPowers', 0, 'votingPower'], x);
-      votingPower = votingPower * 1000000;
-      votingPower = formatDenom(votingPower, 'stake');
+      // votingPower = votingPower * 1000000;
+      votingPower = formatDenom(votingPower, 'asfl');
       
       const votingPowerPercent = numeral((votingPower.value / votingPowerOverall) * 100).value();
       votingPower = numeral(votingPower.value).format(votingPower.format)

@@ -6,7 +6,16 @@ exports[`screen: BlockDetails/Overview matches snapshot 1`] = `
   details={
     Array [
       Object {
-        "detail": "",
+        "detail": <Link
+          href="https://evm.evmos.org/tx/undefined"
+          passHref={true}
+        >
+          <WithStyles(ForwardRef(Typography))
+            className="value"
+            component="a"
+            variant="body1"
+          />
+        </Link>,
         "label": "transactions:hash",
       },
       Object {

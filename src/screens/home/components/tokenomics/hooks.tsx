@@ -33,13 +33,13 @@ export const useTokenomics = () => {
     const results = { ...state };
     const stakingParams = StakingParams.fromJson(R.pathOr({}, ['stakingParams', 0, 'params'], data));
     results.denom = stakingParams.bondDenom;
-
     const [total] = R.pathOr([], [
       'supply',
       0,
       'coins',
     ], data)
       .filter((x) => x.denom === results.denom);
+    console.log(results);  
     if (total) {
       results.total = formatDenom(numeral(total.amount).value(), total.denom).value;
     }

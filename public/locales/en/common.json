@@ -55,9 +55,10 @@
   "maintainBy": "Maintained By <0>{{name}}</0>",
   "evmos": "Evmos",
   "tharsis": "Tharsis",
-  "hupayx" : "Hupayx",
+  "taycan" : "taycan",
   "evmexplorer": "EVM Explorer",
   "cs": "CS",
   "Link": "Link",
-  "faucet": "faucet"
+  "faucet": "faucet",
+  "hupayx": "hupayx"
 }
