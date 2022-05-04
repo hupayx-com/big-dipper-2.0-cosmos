@@ -39,7 +39,6 @@ export const useTokenomics = () => {
       'coins',
     ], data)
       .filter((x) => x.denom === results.denom);
-    console.log(results);  
     if (total) {
       results.total = formatDenom(numeral(total.amount).value(), total.denom).value;
     }

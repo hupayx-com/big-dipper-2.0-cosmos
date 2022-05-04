@@ -62,9 +62,6 @@ export const useOnlineVotingPower = () => {
     let votingPower = R.pathOr(state.votingPower, [
       'block', 0, 'validatorVotingPowersAggregate', 'aggregate', 'sum', 'votingPower',
     ], data);
-    console.log('-------votingPower');
-    console.log(votingPower);
-    console.log(state);
     votingPower = formatDenom(votingPower, 'sfl').value;
     return {
       height: R.pathOr(initialState.height, ['block', 0, 'height'], data),
@@ -107,7 +104,7 @@ export const useOnlineVotingPower = () => {
     // console.log(`test : ${bonded}`);
 
     bonded = formatDenom(bonded, 'asfl').value;
-    console.log(`formatBonded : ${bonded}`);
+    // console.log(`formatBonded : ${bonded}`);
     // console.log(`formatBonded : ${bonded}`);
     // totalReference = bonded;
     return bonded;

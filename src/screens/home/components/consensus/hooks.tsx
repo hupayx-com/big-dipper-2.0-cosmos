@@ -70,7 +70,7 @@ export const useConsensus = () => {
     };
 
     client.onclose = () => {
-      console.log('closing socket');
+      // console.log('closing socket');
     };
 
     return () => {

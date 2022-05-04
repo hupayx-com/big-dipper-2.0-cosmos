@@ -62,11 +62,9 @@ export const useValidators = () => {
     const formattedItems = data.validator.filter((x) => x.validatorInfo).map((x) => {
       const validator = findAddress(x.validatorInfo.operatorAddress);
       let votingPower = R.pathOr(0, ['validatorVotingPowers', 0, 'votingPower'], x);
-      // votingPower = votingPower * 1000000;
-      votingPower = formatDenom(votingPower, 'asfl');
-      
+      votingPower = formatDenom(votingPower, 'sfl');
       const votingPowerPercent = numeral((votingPower.value / votingPowerOverall) * 100).value();
-      votingPower = numeral(votingPower.value).format(votingPower.format)
+      votingPower = numeral(votingPower.value).format(votingPower.format);
       const totalDelegations = x.delegations.reduce((a, b) => {
         return a + numeral(R.pathOr(0, ['amount', 'amount'], b)).value();
       }, 0);
