@@ -32,11 +32,18 @@ exports[`component: layout/footer matches snapshot 1`] = `
           common:evmexplorer
         </a>
         <a
-          href="http://faucet-test.hupayx.io"
+          href="http://taycan-docs.hupayx.io"
           rel="noreferrer"
           target="_blank"
         >
-          common:faucet
+          common:docs
+        </a>
+        <a
+          href="http://taycan-wallet.hupayx.io"
+          rel="noreferrer"
+          target="_blank"
+        >
+          common:wallet
         </a>
         <a
           href="mailto:help@hupayx.com"
