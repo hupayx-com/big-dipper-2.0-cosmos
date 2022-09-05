@@ -61,18 +61,6 @@ function App(props: AppProps) {
             sizes: '180x180',
           },
           {
-            rel: 'icon',
-            type: 'image/png',
-            href: '/icons/evmos32.png',
-            sizes: '32x32',
-          },
-          {
-            rel: 'icon',
-            type: 'image/png',
-            href: '/icons/evmos16.png',
-            sizes: '16x16',
-          },
-          {
             rel: 'manifest',
             href: '/icons/site.webmanifest',
           },
