@@ -6,7 +6,8 @@ import {
   ClickAwayListener,
 } from '@material-ui/core';
 import { useSettingsContext } from '@contexts';
-import EvmosLogo from '@assets/evmos-white-logo.svg';
+// import EvmosLogo from '@assets/evmos-white-logo.svg';
+import EvmosLogo from '@assets/taycan-white-logo.svg';
 import { useStyles } from './styles';
 import { useDesktop } from './hooks';
 import {
