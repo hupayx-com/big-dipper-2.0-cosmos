@@ -2,7 +2,8 @@ import React from 'react';
 import classnames from 'classnames';
 import Trans from 'next-translate/Trans';
 import useTranslation from 'next-translate/useTranslation';
-import EvmosLogo from '@assets/evmos-white-logo.svg';
+// import EvmosLogo from '@assets/evmos-white-logo.svg';
+import EvmosLogo from '@assets/taycan-white-logo.svg';
 import {
   Divider,
   Typography,

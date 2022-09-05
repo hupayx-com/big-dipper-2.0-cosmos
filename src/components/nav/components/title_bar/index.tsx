@@ -5,7 +5,8 @@ import {
 } from '@contexts';
 import useTranslation from 'next-translate/useTranslation';
 import { Typography } from '@material-ui/core';
-import EvmosLogo from '@assets/evmos-white-logo.svg';
+// import EvmosLogo from '@assets/evmos-white-logo.svg';
+import EvmosLogo from '@assets/taycan-white-logo.svg';
 import { useStyles } from './styles';
 import { formatMarket } from './utils';
 

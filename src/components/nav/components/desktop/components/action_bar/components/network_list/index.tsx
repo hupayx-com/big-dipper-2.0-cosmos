@@ -3,7 +3,8 @@ import classnames from 'classnames';
 import { Box } from '@material-ui/core';
 import { Networks } from '@src/components/nav/components';
 import { useSettingsContext } from '@contexts';
-import EvmosLogo from '@assets/evmos-white-logo.svg';
+// import EvmosLogo from '@assets/evmos-white-logo.svg';
+import EvmosLogo from '@assets/taycan-white-logo.svg';
 import { useStyles } from './styles';
 
 const NetworkList: React.FC<{

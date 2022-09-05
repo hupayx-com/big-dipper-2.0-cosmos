@@ -4,7 +4,8 @@ import { useSettingsContext } from '@contexts';
 import { LinearProgress } from '@material-ui/core';
 import { chainConfig } from '@configs';
 import { useStyles } from './styles';
-import EvmosLogo from '@assets/evmos-white-logo.svg';
+// import EvmosLogo from '@assets/evmos-white-logo.svg';
+import EvmosLogo from '@assets/taycan-white-logo.svg';
 const InitialLoad = () => {
   const { theme } = useSettingsContext();
   const classes = useStyles();

@@ -8,7 +8,8 @@ import { chainConfig } from '@configs';
 import { useStyles } from './styles';
 import { Loading } from '@components';
 import { useSettingsContext } from '@contexts';
-import EvmosLogo from '@assets/evmos-white-logo.svg';
+// import EvmosLogo from '@assets/evmos-white-logo.svg';
+import EvmosLogo from '@assets/taycan-white-logo.svg';
 
 const Countdown: React.FC<{
   startGenesis: () => void;

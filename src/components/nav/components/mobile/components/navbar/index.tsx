@@ -6,7 +6,8 @@ import {
 } from '@contexts';
 
 import { HOME } from '@utils/go_to_page';
-import EvmosLogo from '@assets/evmos-white-logo.svg';
+// import EvmosLogo from '@assets/evmos-white-logo.svg';
+import EvmosLogo from '@assets/taycan-white-logo.svg';
 import { useStyles } from './styles';
 import { NavbarProps } from './types';
 
