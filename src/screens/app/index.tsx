@@ -71,7 +71,7 @@ function App(props: AppProps) {
           },
           {
             rel: 'shortcut icon',
-            href: '/icons/evmos-favicon.ico',
+            href: '/icons/taycan-favicon.ico',
           },
         ]}
         additionalMetaTags={[
